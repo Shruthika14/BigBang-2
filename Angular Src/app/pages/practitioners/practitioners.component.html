@@ -1,0 +1,73 @@
+<nav class="navbar navbar-dark bg-primary navbar-expand-lg ">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="/home" style="color: white; font-weight: bold;">bumpWise</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav" >
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item" >
+          <a class="nav-link" routerLink="/home" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}" ><b>Home</b></a>
+        </li>
+        <li class="nav-item" >
+          <a class="nav-link" routerLink="/practitioner" routerLinkActive="active-link"><b>Practitioners</b></a>
+        </li>
+        <li class="nav-item" >
+          <a class="nav-link" routerLink="/appointment" routerLinkActive="active-link"><b>Book Appointment</b></a>
+        </li>
+        <li class="nav-item" >
+          <a class="nav-link" routerLink="/contact" routerLinkActive="active-link"><b>Contact</b></a>
+        </li>
+        <li class="nav-item" *ngIf="role=='Admin'">
+          <a class="nav-link" routerLink="/admin-portal" routerLinkActive="active-link"><b>Admin Portal</b></a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" routerLink="/doctorlandingpage" routerLinkActive="active-link"><b>Doctors signin Approval</b></a>
+        </li> -->
+        <li class="nav-item" *ngIf="role=='Doctor'">
+          <a class="nav-link" routerLink="/upcomingappointment" routerLinkActive="active-link"><b>Upcoming Appointments</b></a>
+        </li>
+        <li class="nav-item" >
+          <a class="nav-link" routerLink="/admin-dashboard" routerLinkActive="active-link"><b>Dashboard</b></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="bannertwo">
+  <!-- <a class="app" routerLink="/appointment"><b>Book Your Appointments</b><i class="bi bi-arrow-right"></i></a> -->
+    <div class="content2">
+        <!-- <h1 class="mb-5"><i>WombWise" </i><br/> Motherhood  wiser</h1> -->
+       
+    </div>
+</div>
+<div>
+    <p><b>WOMBWISE</b> is  empowering women to take informed decisions by providing them an instant access to experienced & Verified Health professionals. we support women for diligent health-related choice making for themselves, fellow women and children. If you are an “Healthcare Professional” who wants to crazily disrupt the way Women and child healthcare needs are addressed in the industry, be ih3t Antenatal to Postnatal care or new born to child care, we at momkidcare are all set to roll.</p>
+</div>
+<div>
+    <h3>WHAT WOMBWISE CAN DO FOR YOU</h3>
+</div>
+<div class="container-fluid footer mt-5 bg-primary fixed-bottom">
+    <div class="row">
+      <!-- name  -->
+      <div class="col-lg-6 mt-3 mb-3">
+        <h1>WombWise</h1>
+        <p>A wiser Parenthood</p>
+      </div>
+      <!-- nav  -->
+      <div class="col-lg-4 mt-3 mb-5">
+        <a routerLink="">Home</a>
+        <a routerLink="/practitioner">Practitioners</a>
+        <a routerLink="/appointment">Book Appointment</a>
+        <a routerLink="contact">Contact</a>
+        <a routerLink="/admin-portal">Admin Portal</a>
+      </div>
+      <!-- socialmedia -->
+      <div class="col-lg-2 mt-3 mb-3">
+        <a href="#" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a href="#" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+  

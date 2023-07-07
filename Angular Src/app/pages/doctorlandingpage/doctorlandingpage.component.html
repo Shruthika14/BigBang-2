@@ -1,0 +1,88 @@
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="/home" style="color: white; font-weight: bold;">bumpWise</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item" >
+          <a class="nav-link" routerLink="/home" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}"><b>Home</b></a>
+        </li>
+        <li class="nav-item" >
+          <a class="nav-link" routerLink="/practitioner" routerLinkActive="active-link"><b>Practitioners</b></a>
+        </li>
+        <li class="nav-item" >
+          <a class="nav-link" routerLink="/appointment" routerLinkActive="active-link"><b>Book Appointment</b></a>
+        </li>
+        <li class="nav-item" >
+          <a class="nav-link" routerLink="/contact" routerLinkActive="active-link"><b>Contact</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/admin-portal" routerLinkActive="active-link"><b>Admin Portal</b></a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" routerLink="/doctorlandingpage" routerLinkActive="active-link"><b>Doctors signin Approval</b></a>
+        </li> -->
+        <li class="nav-item" >
+          <a class="nav-link" routerLink="/upcomingappointment" routerLinkActive="active-link"><b>Upcoming Appointments</b></a>
+        </li>
+        <li class="nav-item" >
+          <a class="nav-link" routerLink="/admin-dashboard" routerLinkActive="active-link"><b>Dashboard</b></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <body>
+  <div id="doctors-group-container">
+    <!-- Include or link to doctors.html -->
+    <!-- Method 1: Include the content directly -->
+    <div class="container">
+      <div class="background-image"></div>
+      <div class="doctors-group">
+        <!-- Doctors content here -->
+        <h1>Doctors in Group</h1>
+        <div class="doctors-list">
+          <div class="doctor">
+            <h3>Dr.Mithra</h3>
+            <p>Specialization: Gynaecology</p>
+          </div>
+          <div class="doctor">
+            <h3>Dr.Rinku</h3>
+            <p>Specialization: Pediatrics</p>
+          </div>
+          <div class="doctor">
+            <h3>Dr.Sheethal</h3>
+            <p>Specialization: Gynaecology</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</body>
+<div class="container-fluid footer mt-5 bg-primary fixed-bottom">
+    <div class="row">
+      <!-- name  -->
+      <div class="col-lg-6 mt-3 mb-3">
+        <h1>WombWise</h1>
+        <p>A wiser Parenthood</p>
+      </div>
+      <!-- nav  -->
+      <div class="col-lg-4 mt-3 mb-5">
+        <a routerLink="">Home</a>
+        <a routerLink="/practitioner">Practitioners</a>
+        <a routerLink="/appointment">Book Appointment</a>
+        <a routerLink="contact">Contact</a>
+        <a routerLink="/admin-portal">Admin Portal</a>
+      </div>
+      <!-- socialmedia -->
+      <div class="col-lg-2 mt-3 mb-3">
+        <a href="#" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a href="#" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+  
+

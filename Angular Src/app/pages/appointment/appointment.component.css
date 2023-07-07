@@ -1,0 +1,95 @@
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    background-color: #f5f5f5;
+  }
+  
+  form div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  input[type="time"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  .container {
+    background-image: url('../../../assets/images/appointmentbg.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .success-message {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  /* Container */
+.container-fluid.footer {
+  background-color: #007bff; /* Primary color */
+  color: #fff; /* Text color */
+  padding: 20px; /* Adjust padding as needed */
+}
+
+/* Name */
+.container-fluid.footer h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.container-fluid.footer p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+/* Navigation */
+.container-fluid.footer a {
+  color: #fff; /* Link text color */
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Social Media Icons */
+.container-fluid.footer i {
+  color: #fff; /* Icon color */
+  font-size: 24px;
+  margin-right: 10px;
+}
+.navbar-light .navbar-nav .nav-link
+{
+    color: white
+}
+.navbar-light .navbar-nav .nav-link.active-link
+{
+    color: whitesmoke;
+    text-decoration:wavy;
+}

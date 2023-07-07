@@ -1,0 +1,32 @@
+.container-fluid.footer {
+    background-color: #007bff; /* Primary color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Adjust padding as needed */
+  }
+  
+  /* Name */
+  .container-fluid.footer h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .container-fluid.footer p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  /* Navigation */
+  .container-fluid.footer a {
+    color: #fff; /* Link text color */
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Social Media Icons */
+  .container-fluid.footer i {
+    color: #fff; /* Icon color */
+    font-size: 24px;
+    margin-right: 10px;
+  }

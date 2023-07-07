@@ -1,0 +1,15 @@
+span{
+    text-shadow: 2px 2px 4px rgba(35, 154, 228, 0.5);
+    font-size: 30px;
+    color: rgb(5, 5, 100);
+}
+.pt-1 {
+    display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.btn{
+  background-color: rgb(1, 1, 19);
+  color: white;
+  font-weight: bold;
+}

@@ -1,0 +1,148 @@
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(2, 2, 2);
+  }
+  
+  th {
+    background-color: rgba(2, 2, 82, 0.681);
+  }
+  
+  tr:hover {
+    background-color: rgb(190, 183, 183)
+  }
+  .heading{
+    color: white;
+    font-size: medium;
+  }/* Container */
+.container-fluid.footer {
+    background-color: #007bff; /* Primary color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Adjust padding as needed */
+  }
+  
+  /* Name */
+  .container-fluid.footer h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .container-fluid.footer p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  /* Navigation */
+  .container-fluid.footer a {
+    color: #fff; /* Link text color */
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Social Media Icons */
+  .container-fluid.footer i {
+    color: #fff; /* Icon color */
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  .navbar-light .navbar-nav .nav-link
+  {
+      color: white
+  }
+  .navbar-light .navbar-nav .nav-link.active-link
+  {
+      color: whitesmoke;
+      text-decoration:wavy;
+  }
+
+.footer {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    padding: 20px 10px;
+  }
+  
+  .footer h1 {
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .footer p {
+    color: #fff;
+    font-size: 12px;
+    margin: 5px 0;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 17px;
+  }
+  
+  .footer a:hover {
+    color:white /* Primary color */
+  }
+  
+  .footer i {
+    padding: 0 10px;
+  }
+  /* CSS for the modal */
+#changeDateModal {
+    z-index: 1050; /* Adjust the z-index value if needed */
+  }
+  
+  /* CSS for the modal header */
+  #changeDateModal .modal-header {
+    background-color: #f8f9fa; /* Set the background color */
+    border-bottom: none; /* Remove the bottom border */
+  }
+  
+  /* CSS for the modal title */
+  #changeDateModal .modal-title {
+    color: #333; /* Set the text color */
+  }
+  
+  /* CSS for the modal body */
+  #changeDateModal .modal-body {
+    padding: 20px; /* Set the padding */
+  }
+  
+  /* CSS for the form */
+  #changeDateModal form {
+    margin-bottom: 0; /* Remove the default margin */
+  }
+  
+  /* CSS for the form label */
+  #changeDateModal label {
+    font-weight: bold; /* Set the font weight */
+  }
+  
+  /* CSS for the form input */
+  #changeDateModal input[type="date"] {
+    width: 100%; /* Set the width */
+  }
+  
+  /* CSS for the form button */
+  #changeDateModal .btn-primary {
+    width: 100%; /* Set the width */
+  }
+  
